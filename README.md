@@ -89,6 +89,7 @@ addon | version | maintainers | summary
 [partner_property](partner_property/) | 16.0.1.1.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Partner Property
 [partner_purchase_manager](partner_purchase_manager/) | 16.0.1.0.1 | [![EmilioPascual](https://github.com/EmilioPascual.png?size=30px)](https://github.com/EmilioPascual) | Add purchase manager field in partner
 [partner_ref_unique](partner_ref_unique/) | 16.0.1.0.0 |  | Add an unique constraint to partner ref field
+[partner_salesperson_propagate](partner_salesperson_propagate/) | 16.0.1.0.0 |  | Propagate any changes in the salesperson field from the partner to its contacts.
 [partner_second_lastname](partner_second_lastname/) | 16.0.1.0.2 |  | Have split first and second lastnames
 [partner_shipping_policy](partner_shipping_policy/) | 16.0.1.0.0 |  | Define shipping policy at partners level.
 [partner_stage](partner_stage/) | 16.0.1.0.1 | [![dreispt](https://github.com/dreispt.png?size=30px)](https://github.com/dreispt) | Add lifecycle Stages to Partners
