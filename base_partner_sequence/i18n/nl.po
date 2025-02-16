@@ -1,38 +1,34 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * base_partner_sequence
+# 	* base_partner_sequence
 #
-# Translators:
-# OCA Transbot <transbot@odoo-community.org>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-28 03:45+0000\n"
-"PO-Revision-Date: 2018-11-15 13:08+0000\n"
-"Last-Translator: Cas Vissers <c.vissers@brahoo.nl>\n"
-"Language-Team: Dutch (https://www.transifex.com/oca/teams/23907/nl/)\n"
-"Language: nl\n"
+"POT-Creation-Date: 2025-02-14 19:16+0000\n"
+"PO-Revision-Date: 2025-02-14 19:16+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.2.2\n"
+"Plural-Forms: \n"
 
 #. module: base_partner_sequence
 #: model:ir.model,name:base_partner_sequence.model_res_company
 msgid "Companies"
-msgstr ""
+msgstr "Bedrijven"
 
 #. module: base_partner_sequence
 #: model:ir.model,name:base_partner_sequence.model_res_config_settings
 msgid "Config Settings"
-msgstr ""
+msgstr "Configuratie instellingen"
 
 #. module: base_partner_sequence
 #: model:ir.model,name:base_partner_sequence.model_res_partner
 msgid "Contact"
-msgstr "Contact"
+msgstr "Neem contact op met"
 
 #. module: base_partner_sequence
 #. odoo-python
@@ -45,21 +41,21 @@ msgstr "Velwaardes of een ID moet opgegeven worden."
 #: model:ir.model.fields,help:base_partner_sequence.field_res_company__partner_ref_readonly
 #: model:ir.model.fields,help:base_partner_sequence.field_res_config_settings__partner_ref_readonly
 msgid "If marked, the Reference in partners will not be editable."
-msgstr ""
+msgstr "Indien gemarkeerd, kan de Referentie in partners niet worden bewerkt."
 
 #. module: base_partner_sequence
 #: model:ir.model.fields,field_description:base_partner_sequence.field_res_company__partner_ref_readonly
 #: model:ir.model.fields,field_description:base_partner_sequence.field_res_config_settings__partner_ref_readonly
 msgid "Partner Reference Readonly"
-msgstr ""
+msgstr "Partnerreferentie Alleen-lezen"
 
 #. module: base_partner_sequence
 #: model:ir.model.fields,field_description:base_partner_sequence.field_res_partner__ref_readonly
 #: model:ir.model.fields,field_description:base_partner_sequence.field_res_users__ref_readonly
 msgid "Ref Readonly"
-msgstr ""
+msgstr "Ref Alleen lezen"
 
 #. module: base_partner_sequence
 #: model_terms:ir.ui.view,arch_db:base_partner_sequence.res_config_settings_view_form
 msgid "Set Partner Reference field as read-only"
-msgstr ""
+msgstr "Partnerreferentieveld instellen als alleen-lezen"

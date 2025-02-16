@@ -1,0 +1,117 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* partner_shipping_policy
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-14 19:17+0000\n"
+"PO-Revision-Date: 2025-02-14 19:17+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: partner_shipping_policy
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_res_partner__changeset_change_ids
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_sale_order__changeset_change_ids
+msgid "Changeset Changes"
+msgstr "Changeset Änderungen"
+
+#. module: partner_shipping_policy
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_res_partner__changeset_ids
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_sale_order__changeset_ids
+msgid "Changesets"
+msgstr "Änderungssätze"
+
+#. module: partner_shipping_policy
+#: model:ir.model,name:partner_shipping_policy.model_res_partner
+msgid "Contact"
+msgstr "Kontakt"
+
+#. module: partner_shipping_policy
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_res_partner__count_changesets
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_sale_order__count_changesets
+msgid "Count Changesets"
+msgstr "Changesets zählen"
+
+#. module: partner_shipping_policy
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_res_partner__count_pending_changeset_changes
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_sale_order__count_pending_changeset_changes
+msgid "Count Pending Changeset Changes"
+msgstr "Ausstehende Changeset-Änderungen zählen"
+
+#. module: partner_shipping_policy
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_res_partner__count_pending_changesets
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_sale_order__count_pending_changesets
+msgid "Count Pending Changesets"
+msgstr "Ausstehende Changesets zählen"
+
+#. module: partner_shipping_policy
+#: model:ir.model.fields,help:partner_shipping_policy.field_sale_order__picking_policy
+msgid ""
+"If you deliver all products at once, the delivery order will be scheduled "
+"based on the greatest product lead time. Otherwise, it will be based on the "
+"shortest."
+msgstr ""
+"Wenn Sie alle Produkte auf einmal liefern, wird die Lieferzeit auf die "
+"längste Vorlaufzeit aller Produkte gesetzt. Andernfalls auf diejenige des "
+"zuerst lieferbaren Produktes."
+
+#. module: partner_shipping_policy
+#: model:ir.model,name:partner_shipping_policy.model_sale_order
+msgid "Sales Order"
+msgstr "Verkaufsauftrag"
+
+#. module: partner_shipping_policy
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_res_partner__picking_policy
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_res_users__picking_policy
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_sale_order__picking_policy
+msgid "Shipping Policy"
+msgstr "Versandbedingungen"
+
+#. module: partner_shipping_policy
+#: model:ir.model.fields,help:partner_shipping_policy.field_res_partner__picking_policy
+#: model:ir.model.fields,help:partner_shipping_policy.field_res_users__picking_policy
+msgid ""
+"Shipping policy to use in this partner's sales orders. If you deliver all "
+"products at once, the delivery order will be scheduled based on the greatest"
+" product lead time. Otherwise, it will be based on the shortest."
+msgstr ""
+"Versandrichtlinien, die Sie in den Kundenaufträgen dieses Partners verwenden"
+" können. Wenn Sie alle Produkte auf einmal liefern, wird der Lieferauftrag "
+"auf der Grundlage der größten Produktvorlaufzeit geplant. Andernfalls wird "
+"die kürzeste zugrunde gelegt."
+
+#. module: partner_shipping_policy
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_res_partner__smart_search
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_sale_order__smart_search
+msgid "Smart Search"
+msgstr "Intelligente Suche"
+
+#. module: partner_shipping_policy
+#: model:ir.model.fields,help:partner_shipping_policy.field_res_partner__count_pending_changeset_changes
+#: model:ir.model.fields,help:partner_shipping_policy.field_sale_order__count_pending_changeset_changes
+msgid "The number of pending changes of this record"
+msgstr "Die Anzahl der ausstehenden Änderungen in diesem Datensatz"
+
+#. module: partner_shipping_policy
+#: model:ir.model.fields,help:partner_shipping_policy.field_res_partner__count_pending_changesets
+#: model:ir.model.fields,help:partner_shipping_policy.field_sale_order__count_pending_changesets
+msgid "The number of pending changesets of this record"
+msgstr "Die Anzahl der ausstehenden Changesets dieses Datensatzes"
+
+#. module: partner_shipping_policy
+#: model:ir.model.fields,help:partner_shipping_policy.field_res_partner__count_changesets
+#: model:ir.model.fields,help:partner_shipping_policy.field_sale_order__count_changesets
+msgid "The overall number of changesets of this record"
+msgstr "Die Gesamtzahl der Änderungen in diesem Datensatz"
+
+#. module: partner_shipping_policy
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_res_partner__user_can_see_changeset
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_sale_order__user_can_see_changeset
+msgid "User Can See Changeset"
+msgstr "Benutzer kann Changeset sehen"

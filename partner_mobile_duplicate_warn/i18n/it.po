@@ -6,20 +6,44 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2023-12-27 09:37+0000\n"
-"Last-Translator: mymage <stefano.consolaro@mymage.it>\n"
-"Language-Team: none\n"
-"Language: it\n"
+"POT-Creation-Date: 2025-02-14 19:16+0000\n"
+"PO-Revision-Date: 2025-02-14 19:16+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.17\n"
+"Plural-Forms: \n"
+
+#. module: partner_mobile_duplicate_warn
+#: model:ir.model.fields,field_description:partner_mobile_duplicate_warn.field_res_partner__changeset_change_ids
+msgid "Changeset Changes"
+msgstr "Modifiche dell'insieme di modifiche"
+
+#. module: partner_mobile_duplicate_warn
+#: model:ir.model.fields,field_description:partner_mobile_duplicate_warn.field_res_partner__changeset_ids
+msgid "Changesets"
+msgstr "Insiemi di modifiche"
 
 #. module: partner_mobile_duplicate_warn
 #: model:ir.model,name:partner_mobile_duplicate_warn.model_res_partner
 msgid "Contact"
 msgstr "Contatto"
+
+#. module: partner_mobile_duplicate_warn
+#: model:ir.model.fields,field_description:partner_mobile_duplicate_warn.field_res_partner__count_changesets
+msgid "Count Changesets"
+msgstr "Conta insiemi di modifiche"
+
+#. module: partner_mobile_duplicate_warn
+#: model:ir.model.fields,field_description:partner_mobile_duplicate_warn.field_res_partner__count_pending_changeset_changes
+msgid "Count Pending Changeset Changes"
+msgstr "Conteggio modifiche dell'insieme di modifiche in attesa"
+
+#. module: partner_mobile_duplicate_warn
+#: model:ir.model.fields,field_description:partner_mobile_duplicate_warn.field_res_partner__count_pending_changesets
+msgid "Count Pending Changesets"
+msgstr "Conteggio insieme di modifiche in attesa"
 
 #. module: partner_mobile_duplicate_warn
 #: model_terms:ir.ui.view,arch_db:partner_mobile_duplicate_warn.view_partner_form
@@ -31,6 +55,31 @@ msgstr "Avviso duplicato: partner"
 #: model:ir.model.fields,field_description:partner_mobile_duplicate_warn.field_res_users__same_mobile_partner_id
 msgid "Partner with same mobile"
 msgstr "Fornitori con lo stesso cellulare"
+
+#. module: partner_mobile_duplicate_warn
+#: model:ir.model.fields,field_description:partner_mobile_duplicate_warn.field_res_partner__smart_search
+msgid "Smart Search"
+msgstr "Ricerca intelligente"
+
+#. module: partner_mobile_duplicate_warn
+#: model:ir.model.fields,help:partner_mobile_duplicate_warn.field_res_partner__count_pending_changeset_changes
+msgid "The number of pending changes of this record"
+msgstr "Numero di modifiche di questo record in attesa"
+
+#. module: partner_mobile_duplicate_warn
+#: model:ir.model.fields,help:partner_mobile_duplicate_warn.field_res_partner__count_pending_changesets
+msgid "The number of pending changesets of this record"
+msgstr "Numero di insiemi di modifiche in attesa di questo record"
+
+#. module: partner_mobile_duplicate_warn
+#: model:ir.model.fields,help:partner_mobile_duplicate_warn.field_res_partner__count_changesets
+msgid "The overall number of changesets of this record"
+msgstr "Numero totale di insiemi di modifiche di questo record"
+
+#. module: partner_mobile_duplicate_warn
+#: model:ir.model.fields,field_description:partner_mobile_duplicate_warn.field_res_partner__user_can_see_changeset
+msgid "User Can See Changeset"
+msgstr "L'utente può vedere l'insieme delle modifiche"
 
 #. module: partner_mobile_duplicate_warn
 #: model_terms:ir.ui.view,arch_db:partner_mobile_duplicate_warn.view_partner_form

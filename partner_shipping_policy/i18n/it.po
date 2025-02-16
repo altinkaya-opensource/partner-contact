@@ -6,20 +6,49 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-08-26 12:06+0000\n"
-"Last-Translator: mymage <stefano.consolaro@mymage.it>\n"
-"Language-Team: none\n"
-"Language: it\n"
+"POT-Creation-Date: 2025-02-14 19:17+0000\n"
+"PO-Revision-Date: 2025-02-14 19:17+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.6.2\n"
+"Plural-Forms: \n"
+
+#. module: partner_shipping_policy
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_res_partner__changeset_change_ids
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_sale_order__changeset_change_ids
+msgid "Changeset Changes"
+msgstr "Modifiche dell'insieme di modifiche"
+
+#. module: partner_shipping_policy
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_res_partner__changeset_ids
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_sale_order__changeset_ids
+msgid "Changesets"
+msgstr "Insiemi di modifiche"
 
 #. module: partner_shipping_policy
 #: model:ir.model,name:partner_shipping_policy.model_res_partner
 msgid "Contact"
 msgstr "Contatto"
+
+#. module: partner_shipping_policy
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_res_partner__count_changesets
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_sale_order__count_changesets
+msgid "Count Changesets"
+msgstr "Conta insiemi di modifiche"
+
+#. module: partner_shipping_policy
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_res_partner__count_pending_changeset_changes
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_sale_order__count_pending_changeset_changes
+msgid "Count Pending Changeset Changes"
+msgstr "Conteggio modifiche dell'insieme di modifiche in attesa"
+
+#. module: partner_shipping_policy
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_res_partner__count_pending_changesets
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_sale_order__count_pending_changesets
+msgid "Count Pending Changesets"
+msgstr "Conteggio insieme di modifiche in attesa"
 
 #. module: partner_shipping_policy
 #: model:ir.model.fields,help:partner_shipping_policy.field_sale_order__picking_policy
@@ -56,3 +85,33 @@ msgstr ""
 "partner. Se si consegnano tutti i prodotti in una volta, l'ordine di "
 "consegna verrà pianificato in base al lead time del prodotto più lungo. In "
 "caso contrario, verrà basato sul più breve."
+
+#. module: partner_shipping_policy
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_res_partner__smart_search
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_sale_order__smart_search
+msgid "Smart Search"
+msgstr "Ricerca intelligente"
+
+#. module: partner_shipping_policy
+#: model:ir.model.fields,help:partner_shipping_policy.field_res_partner__count_pending_changeset_changes
+#: model:ir.model.fields,help:partner_shipping_policy.field_sale_order__count_pending_changeset_changes
+msgid "The number of pending changes of this record"
+msgstr "Numero di modifiche di questo record in attesa"
+
+#. module: partner_shipping_policy
+#: model:ir.model.fields,help:partner_shipping_policy.field_res_partner__count_pending_changesets
+#: model:ir.model.fields,help:partner_shipping_policy.field_sale_order__count_pending_changesets
+msgid "The number of pending changesets of this record"
+msgstr "Numero di insiemi di modifiche in attesa di questo record"
+
+#. module: partner_shipping_policy
+#: model:ir.model.fields,help:partner_shipping_policy.field_res_partner__count_changesets
+#: model:ir.model.fields,help:partner_shipping_policy.field_sale_order__count_changesets
+msgid "The overall number of changesets of this record"
+msgstr "Numero totale di insiemi di modifiche di questo record"
+
+#. module: partner_shipping_policy
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_res_partner__user_can_see_changeset
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_sale_order__user_can_see_changeset
+msgid "User Can See Changeset"
+msgstr "L'utente può vedere l'insieme delle modifiche"

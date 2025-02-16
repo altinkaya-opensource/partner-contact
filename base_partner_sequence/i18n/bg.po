@@ -1,37 +1,34 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * base_partner_sequence
+# 	* base_partner_sequence
 #
-# Translators:
-# OCA Transbot <transbot@odoo-community.org>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-31 01:39+0000\n"
-"PO-Revision-Date: 2016-12-31 01:39+0000\n"
-"Last-Translator: OCA Transbot <transbot@odoo-community.org>, 2016\n"
-"Language-Team: Bulgarian (https://www.transifex.com/oca/teams/23907/bg/)\n"
-"Language: bg\n"
+"POT-Creation-Date: 2025-02-14 19:16+0000\n"
+"PO-Revision-Date: 2025-02-14 19:16+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: \n"
 
 #. module: base_partner_sequence
 #: model:ir.model,name:base_partner_sequence.model_res_company
 msgid "Companies"
-msgstr ""
+msgstr "Компании"
 
 #. module: base_partner_sequence
 #: model:ir.model,name:base_partner_sequence.model_res_config_settings
 msgid "Config Settings"
-msgstr ""
+msgstr "Настройки"
 
 #. module: base_partner_sequence
 #: model:ir.model,name:base_partner_sequence.model_res_partner
 msgid "Contact"
-msgstr ""
+msgstr "Контакт"
 
 #. module: base_partner_sequence
 #. odoo-python
@@ -39,29 +36,28 @@ msgstr ""
 #, python-format
 msgid "Either field values or an id must be provided."
 msgstr ""
+"Трябва да се предоставят или стойности на полетата, или идентификатор."
 
 #. module: base_partner_sequence
 #: model:ir.model.fields,help:base_partner_sequence.field_res_company__partner_ref_readonly
 #: model:ir.model.fields,help:base_partner_sequence.field_res_config_settings__partner_ref_readonly
 msgid "If marked, the Reference in partners will not be editable."
 msgstr ""
+"Ако е маркирано, справката в партньорите няма да може да се редактира."
 
 #. module: base_partner_sequence
 #: model:ir.model.fields,field_description:base_partner_sequence.field_res_company__partner_ref_readonly
 #: model:ir.model.fields,field_description:base_partner_sequence.field_res_config_settings__partner_ref_readonly
 msgid "Partner Reference Readonly"
-msgstr ""
+msgstr "Референция на партньора Само за четене"
 
 #. module: base_partner_sequence
 #: model:ir.model.fields,field_description:base_partner_sequence.field_res_partner__ref_readonly
 #: model:ir.model.fields,field_description:base_partner_sequence.field_res_users__ref_readonly
 msgid "Ref Readonly"
-msgstr ""
+msgstr "Ref Само за четене"
 
 #. module: base_partner_sequence
 #: model_terms:ir.ui.view,arch_db:base_partner_sequence.res_config_settings_view_form
 msgid "Set Partner Reference field as read-only"
-msgstr ""
-
-#~ msgid "Partner"
-#~ msgstr "Партньор"
+msgstr "Задайте полето за референция на партньора като единствено за четене"

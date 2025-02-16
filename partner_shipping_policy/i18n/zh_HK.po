@@ -1,0 +1,110 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* partner_shipping_policy
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-14 19:17+0000\n"
+"PO-Revision-Date: 2025-02-14 19:17+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: partner_shipping_policy
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_res_partner__changeset_change_ids
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_sale_order__changeset_change_ids
+msgid "Changeset Changes"
+msgstr "变更集变更"
+
+#. module: partner_shipping_policy
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_res_partner__changeset_ids
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_sale_order__changeset_ids
+msgid "Changesets"
+msgstr "变更集"
+
+#. module: partner_shipping_policy
+#: model:ir.model,name:partner_shipping_policy.model_res_partner
+msgid "Contact"
+msgstr "联系我们"
+
+#. module: partner_shipping_policy
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_res_partner__count_changesets
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_sale_order__count_changesets
+msgid "Count Changesets"
+msgstr "计数变更集"
+
+#. module: partner_shipping_policy
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_res_partner__count_pending_changeset_changes
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_sale_order__count_pending_changeset_changes
+msgid "Count Pending Changeset Changes"
+msgstr "统计待处理的变更集变更"
+
+#. module: partner_shipping_policy
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_res_partner__count_pending_changesets
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_sale_order__count_pending_changesets
+msgid "Count Pending Changesets"
+msgstr "统计待处理的变更集"
+
+#. module: partner_shipping_policy
+#: model:ir.model.fields,help:partner_shipping_policy.field_sale_order__picking_policy
+msgid ""
+"If you deliver all products at once, the delivery order will be scheduled "
+"based on the greatest product lead time. Otherwise, it will be based on the "
+"shortest."
+msgstr "如果您一次性交付所有产品，交付订单将根据最长的产品交付周期来安排。否则，将根据最短的交货期来安排。"
+
+#. module: partner_shipping_policy
+#: model:ir.model,name:partner_shipping_policy.model_sale_order
+msgid "Sales Order"
+msgstr "销售订单"
+
+#. module: partner_shipping_policy
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_res_partner__picking_policy
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_res_users__picking_policy
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_sale_order__picking_policy
+msgid "Shipping Policy"
+msgstr "运输政策"
+
+#. module: partner_shipping_policy
+#: model:ir.model.fields,help:partner_shipping_policy.field_res_partner__picking_policy
+#: model:ir.model.fields,help:partner_shipping_policy.field_res_users__picking_policy
+msgid ""
+"Shipping policy to use in this partner's sales orders. If you deliver all "
+"products at once, the delivery order will be scheduled based on the greatest"
+" product lead time. Otherwise, it will be based on the shortest."
+msgstr "在该合作伙伴的销售订单中使用的发货政策。如果您一次性交付所有产品，发货单将根据最长的产品交货期来安排。否则，将根据最短的交货期进行安排。"
+
+#. module: partner_shipping_policy
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_res_partner__smart_search
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_sale_order__smart_search
+msgid "Smart Search"
+msgstr "智能搜索"
+
+#. module: partner_shipping_policy
+#: model:ir.model.fields,help:partner_shipping_policy.field_res_partner__count_pending_changeset_changes
+#: model:ir.model.fields,help:partner_shipping_policy.field_sale_order__count_pending_changeset_changes
+msgid "The number of pending changes of this record"
+msgstr "此记录的待更改次数"
+
+#. module: partner_shipping_policy
+#: model:ir.model.fields,help:partner_shipping_policy.field_res_partner__count_pending_changesets
+#: model:ir.model.fields,help:partner_shipping_policy.field_sale_order__count_pending_changesets
+msgid "The number of pending changesets of this record"
+msgstr "此记录的待处理更改集数量"
+
+#. module: partner_shipping_policy
+#: model:ir.model.fields,help:partner_shipping_policy.field_res_partner__count_changesets
+#: model:ir.model.fields,help:partner_shipping_policy.field_sale_order__count_changesets
+msgid "The overall number of changesets of this record"
+msgstr "该记录的更改集总数"
+
+#. module: partner_shipping_policy
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_res_partner__user_can_see_changeset
+#: model:ir.model.fields,field_description:partner_shipping_policy.field_sale_order__user_can_see_changeset
+msgid "User Can See Changeset"
+msgstr "用户可查看变更集"

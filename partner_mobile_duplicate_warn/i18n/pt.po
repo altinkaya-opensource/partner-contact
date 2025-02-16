@@ -1,0 +1,87 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* partner_mobile_duplicate_warn
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-14 19:16+0000\n"
+"PO-Revision-Date: 2025-02-14 19:16+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: partner_mobile_duplicate_warn
+#: model:ir.model.fields,field_description:partner_mobile_duplicate_warn.field_res_partner__changeset_change_ids
+msgid "Changeset Changes"
+msgstr "Alterações do conjunto de alterações"
+
+#. module: partner_mobile_duplicate_warn
+#: model:ir.model.fields,field_description:partner_mobile_duplicate_warn.field_res_partner__changeset_ids
+msgid "Changesets"
+msgstr "Conjunto de alterações"
+
+#. module: partner_mobile_duplicate_warn
+#: model:ir.model,name:partner_mobile_duplicate_warn.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: partner_mobile_duplicate_warn
+#: model:ir.model.fields,field_description:partner_mobile_duplicate_warn.field_res_partner__count_changesets
+msgid "Count Changesets"
+msgstr "Contagem de conjuntos de alterações"
+
+#. module: partner_mobile_duplicate_warn
+#: model:ir.model.fields,field_description:partner_mobile_duplicate_warn.field_res_partner__count_pending_changeset_changes
+msgid "Count Pending Changeset Changes"
+msgstr "Conte as alterações pendentes do conjunto de alterações"
+
+#. module: partner_mobile_duplicate_warn
+#: model:ir.model.fields,field_description:partner_mobile_duplicate_warn.field_res_partner__count_pending_changesets
+msgid "Count Pending Changesets"
+msgstr "Conte os conjuntos de alterações pendentes"
+
+#. module: partner_mobile_duplicate_warn
+#: model_terms:ir.ui.view,arch_db:partner_mobile_duplicate_warn.view_partner_form
+msgid "Duplicate warning: partner"
+msgstr "Aviso de duplicação: parceiro"
+
+#. module: partner_mobile_duplicate_warn
+#: model:ir.model.fields,field_description:partner_mobile_duplicate_warn.field_res_partner__same_mobile_partner_id
+#: model:ir.model.fields,field_description:partner_mobile_duplicate_warn.field_res_users__same_mobile_partner_id
+msgid "Partner with same mobile"
+msgstr "Faça parceria com o mesmo telemóvel"
+
+#. module: partner_mobile_duplicate_warn
+#: model:ir.model.fields,field_description:partner_mobile_duplicate_warn.field_res_partner__smart_search
+msgid "Smart Search"
+msgstr "Pesquisa inteligente"
+
+#. module: partner_mobile_duplicate_warn
+#: model:ir.model.fields,help:partner_mobile_duplicate_warn.field_res_partner__count_pending_changeset_changes
+msgid "The number of pending changes of this record"
+msgstr "O número de alterações pendentes deste registo"
+
+#. module: partner_mobile_duplicate_warn
+#: model:ir.model.fields,help:partner_mobile_duplicate_warn.field_res_partner__count_pending_changesets
+msgid "The number of pending changesets of this record"
+msgstr "O número de conjuntos de alterações pendentes deste registo"
+
+#. module: partner_mobile_duplicate_warn
+#: model:ir.model.fields,help:partner_mobile_duplicate_warn.field_res_partner__count_changesets
+msgid "The overall number of changesets of this record"
+msgstr "O número total de conjuntos de alterações deste registo"
+
+#. module: partner_mobile_duplicate_warn
+#: model:ir.model.fields,field_description:partner_mobile_duplicate_warn.field_res_partner__user_can_see_changeset
+msgid "User Can See Changeset"
+msgstr "O utilizador pode ver o conjunto de alterações"
+
+#. module: partner_mobile_duplicate_warn
+#: model_terms:ir.ui.view,arch_db:partner_mobile_duplicate_warn.view_partner_form
+msgid "has the same <b>Mobile</b>."
+msgstr "tem o mesmo <b>telemóvel</b>."

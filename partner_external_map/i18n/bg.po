@@ -1,45 +1,42 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * partner_external_map
+# 	* partner_external_map
 #
-# Translators:
-# OCA Transbot <transbot@odoo-community.org>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-22 03:38+0000\n"
-"PO-Revision-Date: 2017-11-22 03:38+0000\n"
-"Last-Translator: OCA Transbot <transbot@odoo-community.org>, 2017\n"
-"Language-Team: Bulgarian (https://www.transifex.com/oca/teams/23907/bg/)\n"
-"Language: bg\n"
+"POT-Creation-Date: 2025-02-14 19:17+0000\n"
+"PO-Revision-Date: 2025-02-14 19:17+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: \n"
 
 #. module: partner_external_map
 #: model:ir.model.fields,field_description:partner_external_map.field_map_website__active
 msgid "Active"
-msgstr ""
+msgstr "Активно"
 
 #. module: partner_external_map
 #. odoo-python
 #: code:addons/partner_external_map/models/res_partner.py:0
 #, python-format
 msgid "Address missing on partner '%s'."
-msgstr ""
+msgstr "Липсва адрес на партньора '%s'."
 
 #. module: partner_external_map
 #: model_terms:ir.ui.view,arch_db:partner_external_map.map_website_form
 #: model_terms:ir.ui.view,arch_db:partner_external_map.map_website_search
 msgid "Archived"
-msgstr ""
+msgstr "Архивирани"
 
 #. module: partner_external_map
 #: model:ir.model,name:partner_external_map.model_res_partner
 msgid "Contact"
-msgstr ""
+msgstr "Контакт"
 
 #. module: partner_external_map
 #: model:ir.model.fields,field_description:partner_external_map.field_map_website__create_uid
@@ -64,14 +61,16 @@ msgstr "ID"
 #. module: partner_external_map
 #: model:ir.model.fields,help:partner_external_map.field_map_website__address_url
 msgid "In this URL, {ADDRESS} will be replaced by the address."
-msgstr ""
+msgstr "В този URL адрес {ADDRESS} ще бъде заменен с адреса."
 
 #. module: partner_external_map
 #: model:ir.model.fields,help:partner_external_map.field_map_website__lat_lon_url
 msgid ""
-"In this URL, {LATITUDE} and {LONGITUDE} will be replaced by the latitude and "
-"longitude (requires the module 'base_geolocalize')"
+"In this URL, {LATITUDE} and {LONGITUDE} will be replaced by the latitude and"
+" longitude (requires the module 'base_geolocalize')"
 msgstr ""
+"В този URL адрес {LATITUDE} и {LONGITUDE} ще бъдат заменени с географската "
+"ширина и дължина (изисква модула 'base_geolocalize')"
 
 #. module: partner_external_map
 #: model:ir.model.fields,help:partner_external_map.field_map_website__route_address_url
@@ -79,14 +78,19 @@ msgid ""
 "In this URL, {START_ADDRESS} and {DEST_ADDRESS} will be replaced by the "
 "start and destination addresses."
 msgstr ""
+"В този URL адрес {START_ADDRESS} и {DEST_ADDRESS} ще бъдат заменени с "
+"началния и крайния адрес."
 
 #. module: partner_external_map
 #: model:ir.model.fields,help:partner_external_map.field_map_website__route_lat_lon_url
 msgid ""
 "In this URL, {START_LATITUDE}, {START_LONGITUDE}, {DEST_LATITUDE} and "
-"{DEST_LONGITUDE} will be replaced by the latitude and longitude of the start "
-"and destination adresses (requires the module 'base_geolocalize')."
+"{DEST_LONGITUDE} will be replaced by the latitude and longitude of the start"
+" and destination adresses (requires the module 'base_geolocalize')."
 msgstr ""
+"В този URL адрес {START_LATITUDE}, {START_LONGITUDE}, {DEST_LATITUDE} и "
+"{DEST_LONGITUDE} ще бъдат заменени с географската ширина и дължина на "
+"началния и крайния адрес (изисква модула 'base_geolocalize')."
 
 #. module: partner_external_map
 #: model:ir.model.fields,field_description:partner_external_map.field_map_website____last_update
@@ -106,26 +110,26 @@ msgstr "Последно обновено на"
 #. module: partner_external_map
 #: model_terms:ir.ui.view,arch_db:partner_external_map.view_partner_form
 msgid "Map"
-msgstr ""
+msgstr "Карта"
 
 #. module: partner_external_map
 #: model:ir.model,name:partner_external_map.model_map_website
 #: model:ir.model.fields,field_description:partner_external_map.field_res_users__context_map_website_id
 #: model_terms:ir.ui.view,arch_db:partner_external_map.map_website_form
 msgid "Map Website"
-msgstr ""
+msgstr "Уебсайт на картата"
 
 #. module: partner_external_map
 #: model:ir.model.fields,field_description:partner_external_map.field_map_website__name
 msgid "Map Website Name"
-msgstr ""
+msgstr "Карта Име на уебсайта"
 
 #. module: partner_external_map
 #: model:ir.actions.act_window,name:partner_external_map.map_website_action
 #: model:ir.ui.menu,name:partner_external_map.map_website_menu
 #: model:ir.ui.menu,name:partner_external_map.root_map_website_menu
 msgid "Map Websites"
-msgstr ""
+msgstr "Уебсайтове за карти"
 
 #. module: partner_external_map
 #: model:ir.model.fields,help:partner_external_map.field_res_users__context_route_map_website_id
@@ -133,11 +137,13 @@ msgid ""
 "Map provided used when you click on the car icon on the partner form to "
 "display an itinerary."
 msgstr ""
+"Предоставената карта се използва, когато щракнете върху иконата на автомобил"
+" във формуляра за партньора, за да покажете маршрута."
 
 #. module: partner_external_map
 #: model_terms:ir.ui.view,arch_db:partner_external_map.view_users_form
 msgid "Maps"
-msgstr ""
+msgstr "Карти"
 
 #. module: partner_external_map
 #. odoo-python
@@ -145,6 +151,7 @@ msgstr ""
 #, python-format
 msgid "Missing map provider: you should set it in your preferences."
 msgstr ""
+"Липсва доставчик на карти: трябва да го зададете в предпочитанията си."
 
 #. module: partner_external_map
 #. odoo-python
@@ -152,6 +159,7 @@ msgstr ""
 #, python-format
 msgid "Missing parameter 'URL that uses the address' for map website '%s'."
 msgstr ""
+"Липсва параметър 'URL, който използва адреса' за уебсайта на картата '%s'."
 
 #. module: partner_external_map
 #. odoo-python
@@ -159,6 +167,8 @@ msgstr ""
 #, python-format
 msgid "Missing route URL that uses the addresses for the map website '%s'"
 msgstr ""
+"Липсва URL адрес на маршрута, който използва адресите за уебсайта на картата"
+" \"%s"
 
 #. module: partner_external_map
 #. odoo-python
@@ -166,6 +176,8 @@ msgstr ""
 #, python-format
 msgid "Missing route map website: you should set it in your preferences."
 msgstr ""
+"Липсва уебсайт с карта на маршрута: трябва да го зададете в предпочитанията "
+"си."
 
 #. module: partner_external_map
 #. odoo-python
@@ -174,48 +186,50 @@ msgstr ""
 msgid ""
 "Missing start address for route map: you should set it in your preferences."
 msgstr ""
+"Липсва начален адрес за картата на маршрута: трябва да го зададете в "
+"предпочитанията си."
 
 #. module: partner_external_map
 #: model_terms:ir.ui.view,arch_db:partner_external_map.view_partner_form
 msgid "Route Map"
-msgstr ""
+msgstr "Карта на маршрута"
 
 #. module: partner_external_map
 #: model:ir.model.fields,field_description:partner_external_map.field_res_users__context_route_map_website_id
 msgid "Route Map Website"
-msgstr ""
+msgstr "Уебсайт с маршрутна карта"
 
 #. module: partner_external_map
 #: model:ir.model.fields,field_description:partner_external_map.field_map_website__route_lat_lon_url
 msgid "Route URL that uses latitude and longitude"
-msgstr ""
+msgstr "URL адрес на маршрут, който използва географска ширина и дължина"
 
 #. module: partner_external_map
 #: model:ir.model.fields,field_description:partner_external_map.field_map_website__route_address_url
 msgid "Route URL that uses the addresses"
-msgstr ""
+msgstr "URL адрес на маршрута, който използва адресите"
 
 #. module: partner_external_map
 #: model:ir.model.fields,field_description:partner_external_map.field_map_website__sequence
 msgid "Sequence"
-msgstr ""
+msgstr "Последователност"
 
 #. module: partner_external_map
 #: model:ir.model.fields,field_description:partner_external_map.field_res_users__context_route_start_partner_id
 msgid "Start Address for Route Map"
-msgstr ""
+msgstr "Начален адрес за маршрутна карта"
 
 #. module: partner_external_map
 #: model:ir.model.fields,field_description:partner_external_map.field_map_website__lat_lon_url
 msgid "URL that uses latitude and longitude"
-msgstr ""
+msgstr "URL адрес, който използва географска ширина и дължина"
 
 #. module: partner_external_map
 #: model:ir.model.fields,field_description:partner_external_map.field_map_website__address_url
 msgid "URL that uses the address"
-msgstr ""
+msgstr "URL адрес, който използва адреса"
 
 #. module: partner_external_map
 #: model:ir.model,name:partner_external_map.model_res_users
 msgid "User"
-msgstr ""
+msgstr "Потребител"

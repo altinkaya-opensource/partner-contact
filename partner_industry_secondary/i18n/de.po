@@ -1,22 +1,19 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * partner_sector
+# 	* partner_industry_secondary
 #
-# Translators:
-# OCA Transbot <transbot@odoo-community.org>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-26 15:33+0000\n"
-"PO-Revision-Date: 2017-12-26 15:33+0000\n"
-"Last-Translator: OCA Transbot <transbot@odoo-community.org>, 2017\n"
-"Language-Team: German (https://www.transifex.com/oca/teams/23907/de/)\n"
-"Language: de\n"
+"POT-Creation-Date: 2025-02-14 19:17+0000\n"
+"PO-Revision-Date: 2025-02-14 19:17+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: \n"
 
 #. module: partner_industry_secondary
 #: model:ir.model.fields,field_description:partner_industry_secondary.field_res_partner_industry__child_ids
@@ -26,28 +23,28 @@ msgstr "Untergeordnete"
 #. module: partner_industry_secondary
 #: model:ir.model,name:partner_industry_secondary.model_res_config_settings
 msgid "Config Settings"
-msgstr ""
+msgstr "Konfigurationseinstellungen"
 
 #. module: partner_industry_secondary
 #: model:ir.model,name:partner_industry_secondary.model_res_partner
 msgid "Contact"
-msgstr ""
+msgstr "Kontakt"
 
 #. module: partner_industry_secondary
 #: model:ir.model.fields,field_description:partner_industry_secondary.field_res_config_settings__display_last_child_first
 #: model_terms:ir.ui.view,arch_db:partner_industry_secondary.res_config_settings_view_form
 msgid "Display Child Industries first"
-msgstr ""
+msgstr "Display Child Industries zuerst"
 
 #. module: partner_industry_secondary
 #: model_terms:ir.ui.view,arch_db:partner_industry_secondary.res_config_settings_view_form
 msgid "Display like: Child (Parent &lt; Grandparent)"
-msgstr ""
+msgstr "Anzeige wie: Kind (Elternteil &lt; Großelternteil)"
 
 #. module: partner_industry_secondary
 #: model_terms:ir.ui.view,arch_db:partner_industry_secondary.res_config_settings_view_form
 msgid "Enable industries for individuals"
-msgstr ""
+msgstr "Branchen für Einzelpersonen ermöglichen"
 
 #. module: partner_industry_secondary
 #. odoo-python
@@ -55,23 +52,25 @@ msgstr ""
 #, python-format
 msgid "Error! Industry with same name and parent already exists."
 msgstr ""
+"Fehler! Eine Branche mit demselben Namen und derselben Muttergesellschaft "
+"existiert bereits."
 
 #. module: partner_industry_secondary
 #: model_terms:ir.ui.view,arch_db:partner_industry_secondary.res_config_settings_view_form
 msgid "Industries"
-msgstr ""
+msgstr "Branchen"
 
 #. module: partner_industry_secondary
 #: model:ir.model,name:partner_industry_secondary.model_res_partner_industry
 #: model_terms:ir.ui.view,arch_db:partner_industry_secondary.view_res_partner_filter_industry
 msgid "Industry"
-msgstr ""
+msgstr "Branche"
 
 #. module: partner_industry_secondary
 #: model:ir.model.fields,field_description:partner_industry_secondary.field_res_partner__industry_id
 #: model:ir.model.fields,field_description:partner_industry_secondary.field_res_users__industry_id
 msgid "Main Industry"
-msgstr ""
+msgstr "Branche"
 
 #. module: partner_industry_secondary
 #: model:ir.model.fields,field_description:partner_industry_secondary.field_res_partner_industry__name
@@ -80,20 +79,17 @@ msgstr "Name"
 
 #. module: partner_industry_secondary
 #: model:ir.model.fields,field_description:partner_industry_secondary.field_res_partner_industry__parent_id
-#, fuzzy
 msgid "Parent"
 msgstr "Übergeordnet-ID"
 
 #. module: partner_industry_secondary
 #: model:ir.model.fields,field_description:partner_industry_secondary.field_res_partner_industry__parent_path
-#, fuzzy
 msgid "Parent Path"
 msgstr "Übergeordnet links"
 
 #. module: partner_industry_secondary
 #: model:ir.model.fields,field_description:partner_industry_secondary.field_res_partner__secondary_industry_ids
 #: model:ir.model.fields,field_description:partner_industry_secondary.field_res_users__secondary_industry_ids
-#, fuzzy
 msgid "Secondary Industries"
 msgstr "Nachrangige Sektoren"
 
@@ -106,25 +102,28 @@ msgstr "Sektor"
 #: model:ir.model.fields,help:partner_industry_secondary.field_res_config_settings__group_use_partner_industry_for_person
 msgid "Set if you want to be able to use industries for individuals also."
 msgstr ""
+"Legen Sie fest, ob Sie Branchen auch für Einzelpersonen nutzen können "
+"wollen."
 
 #. module: partner_industry_secondary
 #: model:ir.model.fields,help:partner_industry_secondary.field_res_config_settings__display_last_child_first
 msgid ""
-"Set if you want to show the last child industries first when displaying "
-"industries.\n"
+"Set if you want to show the last child industries first when displaying industries.\n"
 "Child (Parent < Grandparent)"
 msgstr ""
+"Legen Sie fest, ob Sie bei der Anzeige von Branchen die letzten untergeordneten Branchen zuerst anzeigen möchten.\n"
+"Kind (Elternteil &lt; Großelternteil)"
 
 #. module: partner_industry_secondary
 #: model:ir.model.fields,field_description:partner_industry_secondary.field_res_partner__show_partner_industry_for_person
 #: model:ir.model.fields,field_description:partner_industry_secondary.field_res_users__show_partner_industry_for_person
 msgid "Show Partner Industry For Person"
-msgstr ""
+msgstr "Partnerindustrie für Person anzeigen"
 
 #. module: partner_industry_secondary
 #. odoo-python
 #: code:addons/partner_industry_secondary/models/res_partner.py:0
-#, fuzzy, python-format
+#, python-format
 msgid "The main industry must be different from the secondary industries."
 msgstr "Der Hauptsektor muss sich von den Sekundären unterscheiden."
 
@@ -132,41 +131,4 @@ msgstr "Der Hauptsektor muss sich von den Sekundären unterscheiden."
 #: model:ir.model.fields,field_description:partner_industry_secondary.field_res_config_settings__group_use_partner_industry_for_person
 #: model:res.groups,name:partner_industry_secondary.group_use_partner_industry_for_person
 msgid "Use industry for individuals"
-msgstr ""
-
-#, fuzzy, python-format
-#~ msgid "Error! You cannot create recursive industries."
-#~ msgstr "Fehler. Sektoren dürfen nicht rekursiv angelegt werden."
-
-#~ msgid "Parent Right"
-#~ msgstr "Übergeordnet rechts"
-
-#~ msgid "Created by"
-#~ msgstr "erstellt von"
-
-#~ msgid "Created on"
-#~ msgstr "erstellt am"
-
-#~ msgid "Display Name"
-#~ msgstr "Anzeigename"
-
-#~ msgid "ID"
-#~ msgstr "ID"
-
-#~ msgid "Last Modified on"
-#~ msgstr "Zuletzt geändert am"
-
-#~ msgid "Last Updated by"
-#~ msgstr "zuletzt aktualisiert von"
-
-#~ msgid "Last Updated on"
-#~ msgstr "zuletzt aktualisiert am"
-
-#~ msgid "Main Sector"
-#~ msgstr "Hauptsektor"
-
-#~ msgid "Partner"
-#~ msgstr "Partner"
-
-#~ msgid "Sectors"
-#~ msgstr "Sektoren"
+msgstr "Industrie für Einzelpersonen nutzen"

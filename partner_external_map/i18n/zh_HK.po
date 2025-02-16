@@ -1,0 +1,220 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* partner_external_map
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-14 19:17+0000\n"
+"PO-Revision-Date: 2025-02-14 19:17+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: partner_external_map
+#: model:ir.model.fields,field_description:partner_external_map.field_map_website__active
+msgid "Active"
+msgstr "活跃"
+
+#. module: partner_external_map
+#. odoo-python
+#: code:addons/partner_external_map/models/res_partner.py:0
+#, python-format
+msgid "Address missing on partner '%s'."
+msgstr "合作伙伴 '%s' 的地址丢失。"
+
+#. module: partner_external_map
+#: model_terms:ir.ui.view,arch_db:partner_external_map.map_website_form
+#: model_terms:ir.ui.view,arch_db:partner_external_map.map_website_search
+msgid "Archived"
+msgstr "存档"
+
+#. module: partner_external_map
+#: model:ir.model,name:partner_external_map.model_res_partner
+msgid "Contact"
+msgstr "联系我们"
+
+#. module: partner_external_map
+#: model:ir.model.fields,field_description:partner_external_map.field_map_website__create_uid
+msgid "Created by"
+msgstr "创建者"
+
+#. module: partner_external_map
+#: model:ir.model.fields,field_description:partner_external_map.field_map_website__create_date
+msgid "Created on"
+msgstr "创建于"
+
+#. module: partner_external_map
+#: model:ir.model.fields,field_description:partner_external_map.field_map_website__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: partner_external_map
+#: model:ir.model.fields,field_description:partner_external_map.field_map_website__id
+msgid "ID"
+msgstr "ID"
+
+#. module: partner_external_map
+#: model:ir.model.fields,help:partner_external_map.field_map_website__address_url
+msgid "In this URL, {ADDRESS} will be replaced by the address."
+msgstr "在此 URL 中，{ADDRESS} 将被地址取代。"
+
+#. module: partner_external_map
+#: model:ir.model.fields,help:partner_external_map.field_map_website__lat_lon_url
+msgid ""
+"In this URL, {LATITUDE} and {LONGITUDE} will be replaced by the latitude and"
+" longitude (requires the module 'base_geolocalize')"
+msgstr "在此 URL 中，{LATITUDE} 和 {LONGITUDE} 将被经纬度替换（需要使用 \"base_geolocalize \"模块）"
+
+#. module: partner_external_map
+#: model:ir.model.fields,help:partner_external_map.field_map_website__route_address_url
+msgid ""
+"In this URL, {START_ADDRESS} and {DEST_ADDRESS} will be replaced by the "
+"start and destination addresses."
+msgstr "在此 URL 中，{START_ADDRESS} 和 {DEST_ADDRESS} 将被起始地址和目的地地址取代。"
+
+#. module: partner_external_map
+#: model:ir.model.fields,help:partner_external_map.field_map_website__route_lat_lon_url
+msgid ""
+"In this URL, {START_LATITUDE}, {START_LONGITUDE}, {DEST_LATITUDE} and "
+"{DEST_LONGITUDE} will be replaced by the latitude and longitude of the start"
+" and destination adresses (requires the module 'base_geolocalize')."
+msgstr ""
+"在此 URL 中，{START_LATITUDE}、{START_LONGITUDE}、{DEST_LATITUDE} 和 "
+"{DEST_LONGITUDE} 将被起始地址和目的地地址的经纬度所取代（需要使用 \"base_geolocalize \"模块）。"
+
+#. module: partner_external_map
+#: model:ir.model.fields,field_description:partner_external_map.field_map_website____last_update
+msgid "Last Modified on"
+msgstr "最后修改日期"
+
+#. module: partner_external_map
+#: model:ir.model.fields,field_description:partner_external_map.field_map_website__write_uid
+msgid "Last Updated by"
+msgstr "最后更新"
+
+#. module: partner_external_map
+#: model:ir.model.fields,field_description:partner_external_map.field_map_website__write_date
+msgid "Last Updated on"
+msgstr "最后更新日期"
+
+#. module: partner_external_map
+#: model_terms:ir.ui.view,arch_db:partner_external_map.view_partner_form
+msgid "Map"
+msgstr "地图"
+
+#. module: partner_external_map
+#: model:ir.model,name:partner_external_map.model_map_website
+#: model:ir.model.fields,field_description:partner_external_map.field_res_users__context_map_website_id
+#: model_terms:ir.ui.view,arch_db:partner_external_map.map_website_form
+msgid "Map Website"
+msgstr "地图网站"
+
+#. module: partner_external_map
+#: model:ir.model.fields,field_description:partner_external_map.field_map_website__name
+msgid "Map Website Name"
+msgstr "地图 网站名称"
+
+#. module: partner_external_map
+#: model:ir.actions.act_window,name:partner_external_map.map_website_action
+#: model:ir.ui.menu,name:partner_external_map.map_website_menu
+#: model:ir.ui.menu,name:partner_external_map.root_map_website_menu
+msgid "Map Websites"
+msgstr "地图网站"
+
+#. module: partner_external_map
+#: model:ir.model.fields,help:partner_external_map.field_res_users__context_route_map_website_id
+msgid ""
+"Map provided used when you click on the car icon on the partner form to "
+"display an itinerary."
+msgstr "当您点击合作伙伴表单上的汽车图标以显示行程时使用的地图。"
+
+#. module: partner_external_map
+#: model_terms:ir.ui.view,arch_db:partner_external_map.view_users_form
+msgid "Maps"
+msgstr "地图"
+
+#. module: partner_external_map
+#. odoo-python
+#: code:addons/partner_external_map/models/res_partner.py:0
+#, python-format
+msgid "Missing map provider: you should set it in your preferences."
+msgstr "地图提供商缺失：请在首选项中进行设置。"
+
+#. module: partner_external_map
+#. odoo-python
+#: code:addons/partner_external_map/models/res_partner.py:0
+#, python-format
+msgid "Missing parameter 'URL that uses the address' for map website '%s'."
+msgstr "地图网站'%s'缺少参数'使用地址的 URL'。"
+
+#. module: partner_external_map
+#. odoo-python
+#: code:addons/partner_external_map/models/res_partner.py:0
+#, python-format
+msgid "Missing route URL that uses the addresses for the map website '%s'"
+msgstr "使用\"%s \"地图网站地址的路由 URL 丢失"
+
+#. module: partner_external_map
+#. odoo-python
+#: code:addons/partner_external_map/models/res_partner.py:0
+#, python-format
+msgid "Missing route map website: you should set it in your preferences."
+msgstr "缺少路线图网站：您应在首选项中进行设置。"
+
+#. module: partner_external_map
+#. odoo-python
+#: code:addons/partner_external_map/models/res_partner.py:0
+#, python-format
+msgid ""
+"Missing start address for route map: you should set it in your preferences."
+msgstr "缺少路线图的起始地址：您应在首选项中进行设置。"
+
+#. module: partner_external_map
+#: model_terms:ir.ui.view,arch_db:partner_external_map.view_partner_form
+msgid "Route Map"
+msgstr "路线图"
+
+#. module: partner_external_map
+#: model:ir.model.fields,field_description:partner_external_map.field_res_users__context_route_map_website_id
+msgid "Route Map Website"
+msgstr "路线图网站"
+
+#. module: partner_external_map
+#: model:ir.model.fields,field_description:partner_external_map.field_map_website__route_lat_lon_url
+msgid "Route URL that uses latitude and longitude"
+msgstr "使用经纬度的路线 URL"
+
+#. module: partner_external_map
+#: model:ir.model.fields,field_description:partner_external_map.field_map_website__route_address_url
+msgid "Route URL that uses the addresses"
+msgstr "使用地址的路由 URL"
+
+#. module: partner_external_map
+#: model:ir.model.fields,field_description:partner_external_map.field_map_website__sequence
+msgid "Sequence"
+msgstr "序列"
+
+#. module: partner_external_map
+#: model:ir.model.fields,field_description:partner_external_map.field_res_users__context_route_start_partner_id
+msgid "Start Address for Route Map"
+msgstr "路线图起始地址"
+
+#. module: partner_external_map
+#: model:ir.model.fields,field_description:partner_external_map.field_map_website__lat_lon_url
+msgid "URL that uses latitude and longitude"
+msgstr "使用经纬度的 URL"
+
+#. module: partner_external_map
+#: model:ir.model.fields,field_description:partner_external_map.field_map_website__address_url
+msgid "URL that uses the address"
+msgstr "使用地址的 URL"
+
+#. module: partner_external_map
+#: model:ir.model,name:partner_external_map.model_res_users
+msgid "User"
+msgstr "用户"
