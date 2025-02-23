@@ -4,16 +4,18 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 16.0\n"
+"Project-Id-Version: Odoo Server 16.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-14 19:17+0000\n"
-"PO-Revision-Date: 2025-02-14 19:17+0000\n"
+"POT-Creation-Date: 2025-01-15 09:17+0000\n"
+"PO-Revision-Date: 2025-01-15 10:18+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.4\n"
 
 #. module: partner_industry_secondary
 #: model:ir.model.fields,field_description:partner_industry_secondary.field_res_partner_industry__child_ids
@@ -23,7 +25,7 @@ msgstr "Hijos"
 #. module: partner_industry_secondary
 #: model:ir.model,name:partner_industry_secondary.model_res_config_settings
 msgid "Config Settings"
-msgstr "Configuración de la agrupación de los abastecimientos"
+msgstr "Ajustes de configuración"
 
 #. module: partner_industry_secondary
 #: model:ir.model,name:partner_industry_secondary.model_res_partner
@@ -104,10 +106,12 @@ msgstr "Establezca si desea poder usar sectores para individuos también."
 #. module: partner_industry_secondary
 #: model:ir.model.fields,help:partner_industry_secondary.field_res_config_settings__display_last_child_first
 msgid ""
-"Set if you want to show the last child industries first when displaying industries.\n"
+"Set if you want to show the last child industries first when displaying "
+"industries.\n"
 "Child (Parent < Grandparent)"
 msgstr ""
-"Márcalo si quieres mostrar la última industria hija primero cuando busques por industrias.\n"
+"Márcalo si quieres mostrar la última industria hija primero cuando busques "
+"por industrias.\n"
 "Hija (Padre < Abuelo < Ancestro)"
 
 #. module: partner_industry_secondary

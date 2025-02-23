@@ -1,19 +1,25 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* partner_industry_secondary
+# * partner_sector
 #
+# Translators:
+# OCA Transbot <transbot@odoo-community.org>, 2017
+# leemannd <denis.leemann@camptocamp.com>, 2017
+# Quentin THEURET <odoo@kerpeo.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 16.0\n"
+"Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-14 19:17+0000\n"
-"PO-Revision-Date: 2025-02-14 19:17+0000\n"
-"Last-Translator: \n"
-"Language-Team: \n"
+"POT-Creation-Date: 2017-12-26 15:33+0000\n"
+"PO-Revision-Date: 2023-06-02 15:08+0000\n"
+"Last-Translator: Victor Champonnois <victor@coopiteasy.be>\n"
+"Language-Team: French (https://www.transifex.com/oca/teams/23907/fr/)\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.17\n"
 
 #. module: partner_industry_secondary
 #: model:ir.model.fields,field_description:partner_industry_secondary.field_res_partner_industry__child_ids
@@ -23,7 +29,7 @@ msgstr "Enfant"
 #. module: partner_industry_secondary
 #: model:ir.model,name:partner_industry_secondary.model_res_config_settings
 msgid "Config Settings"
-msgstr "Paramètres de regroupement des achats"
+msgstr "Paramètres de configuration"
 
 #. module: partner_industry_secondary
 #: model:ir.model,name:partner_industry_secondary.model_res_partner
@@ -34,12 +40,12 @@ msgstr "Contact"
 #: model:ir.model.fields,field_description:partner_industry_secondary.field_res_config_settings__display_last_child_first
 #: model_terms:ir.ui.view,arch_db:partner_industry_secondary.res_config_settings_view_form
 msgid "Display Child Industries first"
-msgstr "Display Child Industries d'abord"
+msgstr ""
 
 #. module: partner_industry_secondary
 #: model_terms:ir.ui.view,arch_db:partner_industry_secondary.res_config_settings_view_form
 msgid "Display like: Child (Parent &lt; Grandparent)"
-msgstr "Afficher comme : Enfant (Parent &lt; Grand-parent)"
+msgstr ""
 
 #. module: partner_industry_secondary
 #: model_terms:ir.ui.view,arch_db:partner_industry_secondary.res_config_settings_view_form
@@ -101,23 +107,22 @@ msgstr "Secteur d'activité"
 #: model:ir.model.fields,help:partner_industry_secondary.field_res_config_settings__group_use_partner_industry_for_person
 msgid "Set if you want to be able to use industries for individuals also."
 msgstr ""
-"Sélectionner si vous voulez utiliser les secteurs d'activités aussi pour les"
-" individus."
+"Sélectionner si vous voulez utiliser les secteurs d'activités aussi pour les "
+"individus."
 
 #. module: partner_industry_secondary
 #: model:ir.model.fields,help:partner_industry_secondary.field_res_config_settings__display_last_child_first
 msgid ""
-"Set if you want to show the last child industries first when displaying industries.\n"
+"Set if you want to show the last child industries first when displaying "
+"industries.\n"
 "Child (Parent < Grandparent)"
 msgstr ""
-"Définissez si vous souhaitez afficher les industries du dernier enfant en premier lors de l'affichage des industries.\n"
-"Enfant (Parent &lt; Grand-parent)"
 
 #. module: partner_industry_secondary
 #: model:ir.model.fields,field_description:partner_industry_secondary.field_res_partner__show_partner_industry_for_person
 #: model:ir.model.fields,field_description:partner_industry_secondary.field_res_users__show_partner_industry_for_person
 msgid "Show Partner Industry For Person"
-msgstr "Afficher l'industrie partenaire pour la personne"
+msgstr ""
 
 #. module: partner_industry_secondary
 #. odoo-python
@@ -133,3 +138,42 @@ msgstr ""
 #: model:res.groups,name:partner_industry_secondary.group_use_partner_industry_for_person
 msgid "Use industry for individuals"
 msgstr "Utiliser le secteur d'activité pour les individus"
+
+#, python-format
+#~ msgid "Error! You cannot create recursive industries."
+#~ msgstr ""
+#~ "Erreur ! Les secteurs d'activités sont récursifs (un secteur est peut-"
+#~ "être le parent et l'enfant d'un autre)."
+
+#~ msgid "Parent Right"
+#~ msgstr "Parent droit"
+
+#~ msgid "Created by"
+#~ msgstr "Créé par"
+
+#~ msgid "Created on"
+#~ msgstr "Créé le"
+
+#~ msgid "Display Name"
+#~ msgstr "Nom affiché"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "Last Modified on"
+#~ msgstr "Dernière modification le"
+
+#~ msgid "Last Updated by"
+#~ msgstr "Mis à jour par"
+
+#~ msgid "Last Updated on"
+#~ msgstr "Mis à jour le"
+
+#~ msgid "Main Sector"
+#~ msgstr "Secteur d'activité principal"
+
+#~ msgid "Partner"
+#~ msgstr "Contact"
+
+#~ msgid "Sectors"
+#~ msgstr "Secteurs d'activité"
