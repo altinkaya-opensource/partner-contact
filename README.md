@@ -50,7 +50,7 @@ addon | version | maintainers | summary
 [partner_contact_age_range](partner_contact_age_range/) | 16.0.1.0.1 |  | Age Range for Contact's
 [partner_contact_birthdate](partner_contact_birthdate/) | 16.0.1.0.0 |  | Contact's birthdate
 [partner_contact_birthplace](partner_contact_birthplace/) | 16.0.1.0.0 |  | This module allows to define a birthplace for partners.
-[partner_contact_department](partner_contact_department/) | 16.0.1.1.0 |  | Assign contacts to departments
+[partner_contact_department](partner_contact_department/) | 16.0.1.2.2 | [![rafaelbn](https://github.com/rafaelbn.png?size=30px)](https://github.com/rafaelbn) [![yajo](https://github.com/yajo.png?size=30px)](https://github.com/yajo) | Assign contacts to departments
 [partner_contact_gender](partner_contact_gender/) | 16.0.1.0.0 |  | Add gender field to contacts
 [partner_contact_job_position](partner_contact_job_position/) | 16.0.1.1.0 |  | Categorize job positions for contacts
 [partner_contact_lang](partner_contact_lang/) | 16.0.1.0.0 |  | Manage language in contacts
@@ -90,6 +90,7 @@ addon | version | maintainers | summary
 [partner_purchase_manager](partner_purchase_manager/) | 16.0.1.0.1 | [![EmilioPascual](https://github.com/EmilioPascual.png?size=30px)](https://github.com/EmilioPascual) | Add purchase manager field in partner
 [partner_ref_unique](partner_ref_unique/) | 16.0.1.0.0 |  | Add an unique constraint to partner ref field
 [partner_salesperson_propagate](partner_salesperson_propagate/) | 16.0.1.0.0 |  | Propagate any changes in the salesperson field from the partner to its contacts.
+[partner_search_alias](partner_search_alias/) | 16.0.1.0.0 |  | Partner Search Alias
 [partner_second_lastname](partner_second_lastname/) | 16.0.1.0.2 |  | Have split first and second lastnames
 [partner_shipping_policy](partner_shipping_policy/) | 16.0.1.0.0 |  | Define shipping policy at partners level.
 [partner_stage](partner_stage/) | 16.0.1.0.1 | [![dreispt](https://github.com/dreispt.png?size=30px)](https://github.com/dreispt) | Add lifecycle Stages to Partners
