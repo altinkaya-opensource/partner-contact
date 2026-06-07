@@ -38,6 +38,7 @@ addon | version | maintainers | summary
 [partner_address_split](partner_address_split/) | 16.0.1.0.0 |  | Add specific helper methods
 [partner_address_street3](partner_address_street3/) | 16.0.1.0.0 |  | Add a third address line on partners
 [partner_affiliate](partner_affiliate/) | 16.0.1.0.0 |  | Partner Affiliates
+[partner_archive_propagate](partner_archive_propagate/) | 16.0.1.2.0 | <a href='https://github.com/ntsirintanis'><img src='https://github.com/ntsirintanis.png' width='32' height='32' style='border-radius:50%;' alt='ntsirintanis'/></a> | Archive/unarchive partner contacts hierarchically
 [partner_auto_archive](partner_auto_archive/) | 16.0.1.0.0 |  | Archive periodically all contacts marked as auto-archive.
 [partner_bank_acc_type_constraint](partner_bank_acc_type_constraint/) | 16.0.1.0.1 | <a href='https://github.com/alexis-via'><img src='https://github.com/alexis-via.png' width='32' height='32' style='border-radius:50%;' alt='alexis-via'/></a> | Adds constraint on bank account type
 [partner_bank_code](partner_bank_code/) | 16.0.1.0.1 |  | Add fields information in banks
@@ -90,6 +91,7 @@ addon | version | maintainers | summary
 [partner_middlename](partner_middlename/) | 16.0.1.0.0 |  | Have split Middle
 [partner_mobile_duplicate_warn](partner_mobile_duplicate_warn/) | 16.0.1.0.0 | <a href='https://github.com/alexis-via'><img src='https://github.com/alexis-via.png' width='32' height='32' style='border-radius:50%;' alt='alexis-via'/></a> | Warning banner on partner form if another partner has the same mobile
 [partner_multi_relation](partner_multi_relation/) | 16.0.1.5.0 |  | Partner Relations
+[partner_multi_relation_archive_propagate](partner_multi_relation_archive_propagate/) | 16.0.1.1.0 | <a href='https://github.com/ntsirintanis'><img src='https://github.com/ntsirintanis.png' width='32' height='32' style='border-radius:50%;' alt='ntsirintanis'/></a> | Propagate archiving via partner_multi_relation relations
 [partner_multi_relation_function](partner_multi_relation_function/) | 16.0.1.1.0 | <a href='https://github.com/NL66278'><img src='https://github.com/NL66278.png' width='32' height='32' style='border-radius:50%;' alt='NL66278'/></a> | Partner Relation Functions
 [partner_phone_extension](partner_phone_extension/) | 16.0.1.0.0 |  | Partner Phone Number Extension
 [partner_phonecall_schedule](partner_phonecall_schedule/) | 16.0.1.0.1 |  | Track the time and days your partners expect phone calls
