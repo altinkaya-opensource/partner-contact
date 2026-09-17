@@ -72,3 +72,42 @@ class TestResPartner(TransactionCase):
         self.assertFalse(partner_company2.same_mobile_partner_id)
         partner_company2.write({"company_id": False})
         self.assertEqual(partner_company2.same_mobile_partner_id, partner_company1)
+
+    def test_view_duplicates(self):
+        partners = self.env["res.partner"].create(
+            [
+                {
+                    "name": "Original",
+                    "mobile": "+33612345678",
+                    "company_id": self.company1_id,
+                },
+                {"name": "Duplicate", "mobile": "+33612345678"},
+                {
+                    "name": "Archived duplicate",
+                    "mobile": "+33612345678",
+                    "active": False,
+                    "company_id": self.company1_id,
+                },
+                {
+                    "name": "Other company",
+                    "mobile": "+33612345678",
+                    "company_id": self.company2_id,
+                },
+                {"name": "Different value", "mobile": "+33612345679"},
+            ]
+        )
+        original = partners[0]
+        action = original.action_view_mobile_duplicates()
+        result = (
+            self.env[action["res_model"]]
+            .with_context(**action["context"])
+            .search(action["domain"])
+        )
+        self.assertEqual(set(result.ids), set(partners[1:3].ids))
+        self.assertEqual(action["view_mode"], "tree,form")
+        self.assertIn(original.same_mobile_partner_id, result)
+
+    def test_view_duplicates_empty(self):
+        partner = self.env["res.partner"].create({"name": "No mobile"})
+        action = partner.action_view_mobile_duplicates()
+        self.assertFalse(self.env["res.partner"].search(action["domain"]))

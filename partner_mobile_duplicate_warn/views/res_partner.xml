@@ -17,6 +17,12 @@
                   Duplicate warning: partner <field
                         name="same_mobile_partner_id"
                     /> has the same <b>Mobile</b>.
+                    <button
+                        name="action_view_mobile_duplicates"
+                        type="object"
+                        string="View Duplicates"
+                        class="btn-link"
+                    />
                 </div>
             </div>
         </field>
