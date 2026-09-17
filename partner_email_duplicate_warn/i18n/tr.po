@@ -33,6 +33,14 @@ msgid "Partner with same e-mail"
 msgstr "Aynı e-posta adresine sahip Iş Ortağı"
 
 #. module: partner_email_duplicate_warn
+#. odoo-python
+#: code:addons/partner_email_duplicate_warn/models/res_partner.py:0
+#: model_terms:ir.ui.view,arch_db:partner_email_duplicate_warn.view_partner_form
+#, python-format
+msgid "View Duplicates"
+msgstr "Mükerrer Kayıtları Gör"
+
+#. module: partner_email_duplicate_warn
 #: model_terms:ir.ui.view,arch_db:partner_email_duplicate_warn.view_partner_form
 msgid "has the same <b>Email</b>."
 msgstr "aynı e-posta adresine <b>Email</b> sahip."

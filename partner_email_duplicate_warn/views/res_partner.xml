@@ -17,6 +17,12 @@
                   Duplicate warning: partner <field
                         name="same_email_partner_id"
                     /> has the same <b>Email</b>.
+                    <button
+                        name="action_view_email_duplicates"
+                        type="object"
+                        string="View Duplicates"
+                        class="btn-link"
+                    />
                 </div>
             </div>
         </field>

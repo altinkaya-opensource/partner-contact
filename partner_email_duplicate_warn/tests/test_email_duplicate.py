@@ -127,3 +127,64 @@ class TestResPartner(TransactionCase):
         )
         self.assertFalse(parent_partner.same_email_partner_id)
         self.assertFalse(child_partner.same_email_partner_id)
+
+    def test_view_duplicates(self):
+        partners = self.env["res.partner"].create(
+            [
+                {
+                    "name": "Original",
+                    "email": "duplicates@example.org",
+                    "company_id": self.company1_id,
+                },
+                {"name": "Duplicate", "email": " DUPLICATES@EXAMPLE.ORG "},
+                {
+                    "name": "Archived duplicate",
+                    "email": "duplicates@example.org",
+                    "active": False,
+                    "company_id": self.company1_id,
+                },
+                {
+                    "name": "Other company",
+                    "email": "duplicates@example.org",
+                    "company_id": self.company2_id,
+                },
+                {"name": "Different value", "email": "not-duplicates@example.org"},
+            ]
+        )
+        original = partners[0]
+        self.env["res.partner"].create(
+            {"name": "Child", "email": original.email, "parent_id": original.id}
+        )
+        action = original.action_view_email_duplicates()
+        result = (
+            self.env[action["res_model"]]
+            .with_context(**action["context"])
+            .search(action["domain"])
+        )
+        self.assertEqual(set(result.ids), set(partners[1:3].ids))
+        self.assertEqual(action["view_mode"], "tree,form")
+        self.assertIn(original.same_email_partner_id, result)
+
+    def test_view_duplicates_empty(self):
+        partner = self.env["res.partner"].create({"name": "No email"})
+        action = partner.action_view_email_duplicates()
+        self.assertFalse(self.env["res.partner"].search(action["domain"]))
+
+    def test_first_duplicate_skips_partial_matches(self):
+        partners = self.env["res.partner"].create(
+            [
+                {"name": "A partial match", "email": "prefix-first@example.org"},
+                {"name": "B exact match", "email": " FIRST@EXAMPLE.ORG "},
+                {"name": "C exact match", "email": "first@example.org"},
+                {"name": "Original", "email": "first@example.org"},
+            ]
+        )
+        original = partners[3]
+        self.assertEqual(original.same_email_partner_id, partners[1])
+        action = original.action_view_email_duplicates()
+        duplicates = (
+            self.env["res.partner"]
+            .with_context(**action["context"])
+            .search(action["domain"])
+        )
+        self.assertEqual(set(duplicates.ids), set(partners[1:3].ids))
