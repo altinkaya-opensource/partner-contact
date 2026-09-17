@@ -169,3 +169,22 @@ class TestResPartner(TransactionCase):
         partner = self.env["res.partner"].create({"name": "No email"})
         action = partner.action_view_email_duplicates()
         self.assertFalse(self.env["res.partner"].search(action["domain"]))
+
+    def test_first_duplicate_skips_partial_matches(self):
+        partners = self.env["res.partner"].create(
+            [
+                {"name": "A partial match", "email": "prefix-first@example.org"},
+                {"name": "B exact match", "email": " FIRST@EXAMPLE.ORG "},
+                {"name": "C exact match", "email": "first@example.org"},
+                {"name": "Original", "email": "first@example.org"},
+            ]
+        )
+        original = partners[3]
+        self.assertEqual(original.same_email_partner_id, partners[1])
+        action = original.action_view_email_duplicates()
+        duplicates = (
+            self.env["res.partner"]
+            .with_context(**action["context"])
+            .search(action["domain"])
+        )
+        self.assertEqual(set(duplicates.ids), set(partners[1:3].ids))

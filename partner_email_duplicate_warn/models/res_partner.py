@@ -18,7 +18,7 @@ class ResPartner(models.Model):
     @api.depends("email", "company_id")
     def _compute_same_email_partner_id(self):
         for partner in self:
-            partner.same_email_partner_id = partner._get_email_duplicates()[:1]
+            partner.same_email_partner_id = partner._get_email_duplicates(limit=1)
 
     def action_view_email_duplicates(self):
         """Open every accessible contact matching this warning."""
@@ -32,8 +32,8 @@ class ResPartner(models.Model):
             "context": {"active_test": False},
         }
 
-    def _get_email_duplicates(self):
-        """Find all contacts matching the email warning rules."""
+    def _get_email_duplicates(self, limit=None):
+        """Find contacts, stopping at the requested number of exact matches."""
         self.ensure_one()
         partner_email = (self.email or "").strip().lower()
         if not partner_email:
@@ -54,10 +54,12 @@ class ResPartner(models.Model):
                 "!",
                 ("id", "parent_of", partner_id),
             ]
-        return (
-            self.with_context(active_test=False)
-            .search(domain)
-            .filtered(
-                lambda partner: (partner.email or "").strip().lower() == partner_email
-            )
-        )
+        candidates = self.with_context(active_test=False).search(domain)
+        duplicate_ids = []
+        for partner in candidates:
+            if (partner.email or "").strip().lower() != partner_email:
+                continue
+            duplicate_ids.append(partner.id)
+            if limit and len(duplicate_ids) >= limit:
+                break
+        return candidates.browse(duplicate_ids)
